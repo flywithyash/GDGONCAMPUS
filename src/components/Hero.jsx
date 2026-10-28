@@ -72,8 +72,11 @@ export function Hero() {
         <div id="build-board" className="mt-8 max-w-5xl mx-auto scroll-mt-28">
           <div className="text-center mb-3">
             <span className="text-[11px] font-mono tracking-widest text-slate-400 uppercase">
-              // Interactive Dev Station · Campus Build Board
+              // Interactive Architecture Station · Campus Build Board
             </span>
+            <p className="text-[11px] text-slate-400 font-mono mt-1">
+              Client-side reference patterns demonstrating Web, AI, Cloud, and Android workflows
+            </p>
           </div>
           <CampusBuildBoard />
         </div>

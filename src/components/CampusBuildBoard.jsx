@@ -24,7 +24,7 @@ export function CampusBuildBoard() {
   ];
 
   const handleCopyCmd = () => {
-    navigator.clipboard?.writeText("git clone https://github.com/gdg-poornima/build-space.git");
+    navigator.clipboard?.writeText("git clone https://github.com/flywithyash/GDGONCAMPUS.git");
     setCopiedStatus(true);
     setTimeout(() => setCopiedStatus(false), 2000);
   };
@@ -47,7 +47,7 @@ export function CampusBuildBoard() {
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-950/60 border border-emerald-500/20 text-emerald-400 font-mono text-[10px]">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span>Jaipur Node · Active</span>
+            <span>Architecture Demonstrator · Active</span>
           </div>
           <button
             onClick={handleCopyCmd}
@@ -108,7 +108,7 @@ export function CampusBuildBoard() {
                       <Code className="w-4 h-4" />
                     </div>
                     <div>
-                      <h4 className="text-xs font-semibold text-white tracking-wide">Web Workstation</h4>
+                      <h4 className="text-xs font-semibold text-white tracking-wide">Web Architecture (Reference)</h4>
                       <p className="text-[11px] font-mono text-slate-400">CampusPortal.tsx</p>
                     </div>
                   </div>
@@ -164,7 +164,7 @@ export function CampusBuildBoard() {
                       <Sparkles className="w-4 h-4" />
                     </div>
                     <div>
-                      <h4 className="text-xs font-semibold text-white tracking-wide">AI Model Playground</h4>
+                      <h4 className="text-xs font-semibold text-white tracking-wide">AI Model Playground (Demonstrator)</h4>
                       <p className="text-[11px] font-mono text-slate-400">gemini-1.5-flash</p>
                     </div>
                   </div>
@@ -224,7 +224,7 @@ export function CampusBuildBoard() {
                       <Cloud className="w-4 h-4" />
                     </div>
                     <div>
-                      <h4 className="text-xs font-semibold text-white tracking-wide">Cloud & Edge Deploy</h4>
+                      <h4 className="text-xs font-semibold text-white tracking-wide">Cloud & Edge Deploy (GCP Blueprint)</h4>
                       <p className="text-[11px] font-mono text-slate-400">asia-south2 (Delhi/Jaipur)</p>
                     </div>
                   </div>
@@ -282,7 +282,7 @@ export function CampusBuildBoard() {
                       <Smartphone className="w-4 h-4" />
                     </div>
                     <div>
-                      <h4 className="text-xs font-semibold text-white tracking-wide">Modern Android</h4>
+                      <h4 className="text-xs font-semibold text-white tracking-wide">Modern Android (Compose Blueprint)</h4>
                       <p className="text-[11px] font-mono text-slate-400">CampusCompose.kt</p>
                     </div>
                   </div>
