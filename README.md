@@ -3,7 +3,7 @@
 
 An engineering-first web platform crafted for the **Google Developer Groups (GDG) on Campus — Poornima University** chapter, designed for the Tech Lead / Core-Team technical assessment.
 
-🌐 **Live Website**: [https://gdgoncampus.yashwardhansingh692132.workers.dev](https://gdgoncampus.yashwardhansingh692132.workers.dev)  
+🌐 **Live Website**: [https://gdgoncampus.flywithyash.workers.dev](https://gdgoncampus.flywithyash.workers.dev)  
 📦 **Repository**: [https://github.com/flywithyash/GDGONCAMPUS](https://github.com/flywithyash/GDGONCAMPUS)
 
 ---
